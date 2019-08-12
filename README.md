@@ -16,6 +16,6 @@ replacing _FILENAME_ for the name of the script.
 
 ## Available scripts
 1. [custom-plan](https://leanazulyoro.github.io/bookmarklets/custom-plan.js)
-_Description:_ Being in seller-ui, go to the page where custom plans are set for, the current seller.
+Being in seller-ui, go to the page where custom plans are set for, the current seller.
 2. [overol-leads](https://leanazulyoro.github.io/bookmarklets/overol-plan.js)
-_Description:_ Go to the lead url in overol for the current sellerId in sellers-ui
+Go to the lead url in overol for the current sellerId in sellers-ui
