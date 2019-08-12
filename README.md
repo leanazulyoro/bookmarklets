@@ -8,7 +8,7 @@ A set of script to use in bookmarklets.
 ```
 javascript: (function () { 
   var jsCode = document.createElement('script'); 
-  jsCode.setAttribute('src', 'https://leanazulyoro.github.io/bookmarklets/FILENAME.js'); 
+  jsCode.setAttribute('src', 'https://leanazulyoro.github.io/my-bookmarklets/FILENAME.js'); 
   document.body.appendChild(jsCode); 
 }());
 ```
