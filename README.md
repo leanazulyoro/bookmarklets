@@ -5,7 +5,7 @@ A set of script to use in bookmarklets.
 
 1. Add a bookmark
 2. put this in the url field:
-```
+```javascript
 javascript: (function () { 
   var jsCode = document.createElement('script'); 
   jsCode.setAttribute('src', 'https://leanazulyoro.github.io/my-bookmarklets/FILENAME.js'); 
