@@ -5,8 +5,12 @@ const itemIds = Array.from(
     document.querySelectorAll('.items-list .item a[data-id]')
   )
   .map(item => item.getAttribute('data-id'));
+
+debugger;
+
 const filteredItems = itemIds.filter(olxId => Object.keys(properatiURLs).includes(olxId));
 filteredItems.map(id => {
+  debugger;
   document.querySelector(`a[href$="${id}"]`).setAttribute('href', properatiURLs[id]);
 });
 
