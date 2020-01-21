@@ -1,7 +1,5 @@
-
-var ids = Array.from(document.querySelectorAll('.items-list .item a[data-id]'))
-  .map(item => item.getAttribute('data-id'));
-
+var ids = Array.from(document.querySelectorAll('li[data-aut-id=itemBox] > a')).map((a) => a.href.match(/iid\-([0-9]+)/)[1]);
 var jsCode = document.createElement('script');
-jsCode.setAttribute('src', 'https://us-east1-properati-staging.cloudfunctions.net/olx-ads-link-to-properati?ids=1001711819,1001705153' );
+jsCode.setAttribute('src', `https://us-central1-properati-115d.cloudfunctions.net/olxProperatiListings?ids=${ids.join(
+  ',')}` );
 document.body.appendChild(jsCode);
